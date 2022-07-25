@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url(https://thumbs.dreamstime.com/z/poster-tw-broadcast-weather-forecast-cartoon-poster-tw-broadcast-weather-forecast-cartoon-young-woman-filming-television-158403672.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.app{
+    background-color:black;
+    margin: 100px  auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 55vh;
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+.app > *{
+    margin-bottom: 30px;
+
+}
+.inbox{
+    border: none;
+    background-color:white;
+    width: 85%;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    height: 45px;
+    color: black;
+    outline: none;
+
+}
+.inbox:focus{
+    background-color: black;
+    color: white;
+    
+}
+.content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    line-height: 1.9rem;
+    background-color: white;
+    border-radius: 6px;
+    display: none;
+}
+.place{
+    font-weight: bold;
+    padding: 13px;
+}
+.weinfo{
+    padding: 24px;
+    font-weight: bold;
+}
+.temp{
+    font-size: 50px;
+    text-shadow: 2px 1px brown;
+}
+.minmax{
+    padding: 30px;
+}
+.info{
+    padding: 5px;
+}
